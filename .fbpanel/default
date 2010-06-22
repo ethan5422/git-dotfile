@@ -1,0 +1,31 @@
+# fbpanel <profile> config file
+# see http://fbpanel.sf.net/docs.html for complete configuration guide
+
+
+Global {
+    edge = bottom
+    allign = right
+    margin = 0
+    widthtype = pixel
+    width = 80
+    height = 16
+    transparent = false
+    tintcolor = #404040
+    alpha = 50
+    setdocktype = true
+    setpartialstrut = true
+    autohide = false
+    heightWhenHidden = 2
+    roundcorners = false
+    roundcornersradius = 0
+    layer = none
+}
+
+plugin {
+    type = tray
+    expand = true
+    padding = 0
+    config {
+    }
+}
+

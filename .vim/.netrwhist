@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/ethan5422/.cache/xmms2'
+let g:netrw_dirhist_2='/home/ethan5422/.fbpanel'
+let g:netrw_dirhist_3='/home/ethan5422/.vim'
+let g:netrw_dirhist_4='/home/ethan5422/build/machinarium'
+let g:netrw_dirhist_5='/opt/java'
+let g:netrw_dirhist_6='/mnt/d/music/Before Crisis -Final Fantasy VII- & Last Order -Final Fantasy VII- OST'
+let g:netrw_dirhist_7='/home/ethan5422/.ncmpcpp'
+let g:netrw_dirhist_8='/home/ethan5422/.vim'

@@ -1,0 +1,262 @@
+# fbpanel <profile> config file
+# see http://fbpanel.sf.net/docs.html for complete configuration guide
+
+
+Global {
+    edge = bottom
+    allign = center
+    margin = 0
+    widthtype = percent
+    width = 86
+    height = 24
+    transparent = false
+    tintcolor = #ffffff
+    alpha = 25
+    setdocktype = true
+    setpartialstrut = true
+    autohide = false
+    heightWhenHidden = 2
+    roundcorners = false
+    roundcornersradius = 0
+    layer = none
+}
+
+plugin {
+    type = space
+    expand = false
+    padding = 0
+    config {
+        size = 2
+    }
+}
+
+plugin {
+    type = menu
+    expand = false
+    padding = 0
+    config {
+        icon = logo
+        systemmenu {
+        }
+        separator {
+        }
+        menu {
+            name = Computer
+            icon = gnome-fs-home
+            item {
+                name = Terminal
+                icon = gnome-terminal
+                action = xterm
+            }
+            item {
+                name = Lock Display
+                icon = gnome-lockscreen
+                action = slock
+            }
+            separator {
+            }
+            item {
+                name = Reboot
+                icon = gnome-session-reboot
+                action = sudo reboot
+            }
+            item {
+                name = Shutdown
+                icon = gnome-session-halt
+                action = sudo shutdown -h now
+            }
+            item {
+                name = logout
+                icon = gnome-session-logout
+                action = kill -9 -1
+            }
+        }
+    }
+}
+
+plugin {
+    type = space
+    expand = false
+    padding = 0
+    config {
+        size = 15
+    }
+}
+
+plugin {
+    type = launchbar
+    expand = false
+    padding = 0
+    config {
+        button {
+            icon = gnome-fs-home
+            tooltip = ROX file manager
+            action = rox
+        }
+        button {
+            icon = gnome-terminal
+            tooltip = Terminal
+            action = xterm
+        }
+        button {
+            icon = mozilla-firefox
+            tooltip = Firefox web browser
+            action =firefox
+        }
+    }
+}
+
+plugin {
+    type = space
+    expand = false
+    padding = 0
+    config {
+        size = 15
+    }
+}
+
+plugin {
+    type = wincmd
+    expand = false
+    padding = 0
+    config {
+        icon = gnome-fs-desktop
+        tooltip = Left click to iconify all windows. Middle click to shade them.
+    }
+}
+
+plugin {
+    type = space
+    expand = false
+    padding = 0
+    config {
+        size = 15
+    }
+}
+
+plugin {
+    type = taskbar
+    expand = true
+    padding = 0
+    config {
+        ShowIconified = true
+        ShowMapped    = true
+        ShowAllDesks  = false
+        tooltips = true
+        IconsOnly = false
+        MaxTaskWidth = 150
+    }
+}
+
+plugin {
+    type = space
+    expand = false
+    padding = 0
+    config {
+        size = 15
+    }
+}
+
+plugin {
+    type = pager
+    expand = false
+    padding = 0
+    config {
+        showwallpaper = true
+    }
+}
+
+plugin {
+    type = space
+    expand = false
+    padding = 0
+    config {
+        size = 10
+    }
+}
+
+plugin {
+    type = cpu
+    expand = false
+    padding = 0
+    config {
+    }
+}
+
+plugin {
+    type = net
+    expand = false
+    padding = 0
+    config {
+    }
+}
+
+plugin {
+    type = space
+    expand = false
+    padding = 0
+    config {
+        size = 10
+    }
+}
+
+plugin {
+    type = tray
+    expand = false
+    padding = 0
+    config {
+    }
+}
+
+plugin {
+    type = space
+    expand = false
+    padding = 0
+    config {
+        size = 10
+    }
+}
+
+plugin {
+    type = dclock
+    expand = false
+    padding = 0
+    config {
+        ClockFmt = %R
+        TooltipFmt = %A %x
+    }
+}
+
+plugin {
+    type = icons
+    expand = false
+    padding = 0
+    config {
+        DefaultIcon = /usr/share/fbpanel/images/default.xpm
+        application {
+            icon = gnome-terminal
+            ClassName = XTerm
+        }
+        application {
+            icon = gnome-terminal
+            ClassName = mlterm
+        }
+        application {
+            icon = gnome-terminal
+            ClassName = URxvt
+        }
+        application {
+            icon = gnome-emacs
+            ClassName = Emacs
+        }
+        application {
+            icon = mozilla-firefox
+            ClassName = Firefox-bin
+        }
+        application {
+            icon = mozilla-firefox
+            ClassName = Firefox
+        }
+    }
+}
+

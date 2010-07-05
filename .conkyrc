@@ -7,7 +7,7 @@ use_spacer none
 TEXT
 ^fg(\#5ccbed)^i(/home/ethan5422/dzen/cpu.xbm) ^fg(\#dcdccc)${cpu cpu1}% \
 ^fg(\#5ccbed)^i(/home/ethan5422/dzen/mem.xbm) ^fg(\#dcdccc)${mem} \
-^fg(\#5ccbed)^i(/home/ethan5422/dzen/fs_01.xbm) sda3 ^fg(\#dcdccc)${fs_used_perc /}% ^fg(\#5ccbed)sda4 ^fg(\#dcdccc)${fs_used_perc /home}% \
+^fg(\#5ccbed)^i(/home/ethan5422/dzen/fs_01.xbm) sdb3 ^fg(\#dcdccc)${fs_used_perc /}% ^fg(\#5ccbed)sdb4 ^fg(\#dcdccc)${fs_used_perc /home}% \
 ^fg(\#5ccbed)^i(/home/ethan5422/dzen/arch.xbm) ^fg(\#dcdccc)${execpi 900 /home/ethan5422/dzen/pacman-up.pl}\
 ^fg(\#5ccbed)^i(/home/ethan5422/dzen/net_down_03.xbm) ^fg(\#dcdccc)${downspeedf eth0}K/s ^fg(\#5ccbed)^i(/home/ethan5422/dzen/net_up_03.xbm) ^fg(\#dcdccc)${upspeedf eth0}K/s \
 ^fg(\#5ccbed)^i(/home/ethan5422/dzen/clock.xbm) ^fg(\#dcdccc)${time %F %R} 

@@ -12,6 +12,6 @@ mpd ~/.mpd/config
 #done &
 #xcompmgr -c -C &
 (sleep 5s && fbpanel) &
-feh --bg-scale ~/wallpapers/september-09-colors-of-autumn-nocal-1440x900.jpg &
-(sleep 3s && conky | dzen2 -x '700' -y '884' -e '' -bg '#404040' -w '660' -h '16' -ta r -fn '-*-dina-medium-r-*-*-*-100-*-*-*-*-*-*' -p) &
+#feh --bg-scale ~/wallpapers/september-09-colors-of-autumn-nocal-1440x900.jpg &
+(sleep 3s && conky | dzen2 -x '1150' -y '1184' -e '' -bg '#404040' -w '660' -h '16' -ta r -fn '-*-dina-medium-r-*-*-*-100-*-*-*-*-*-*' -p) &
 exec dwm

@@ -1,0 +1,11 @@
+startup_message off
+caption always "%{= Wk}%-w%{= Bw}%n %t%{-}%+w %-="
+vbell off
+term screen-256color
+screen -t vuze 1 java -jar /usr/share/vuze/Azureus2.jar --ui=console
+screen -t irssi 2 irssi
+select 2
+altscreen on
+
+bindkey "^[[1;5D" prev  # change window with ctrl-left
+bindkey "^[[1;5C" next  # change window with ctrl-right

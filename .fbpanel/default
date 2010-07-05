@@ -7,11 +7,11 @@ Global {
     allign = right
     margin = 0
     widthtype = pixel
-    width = 80
+    width = 105
     height = 16
     transparent = false
     tintcolor = #404040
-    alpha = 50
+    alpha = 49
     setdocktype = true
     setpartialstrut = true
     autohide = false

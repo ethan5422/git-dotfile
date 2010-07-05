@@ -1,6 +1,4 @@
 # Write your default config options here!
 subfont-text-scale=3
-vo=vaapi
-va=vaapi
 utf8=yes
 font="Droid Sans Fallback"

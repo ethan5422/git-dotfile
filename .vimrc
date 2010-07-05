@@ -42,6 +42,7 @@ set title
 set fileencodings=utf-8,big5,euc-jp,utf-bom,iso8859-1,utf-16le
 let g:NeoComplCache_EnableAtStartup = 1 
 let g:NeoComplCache_SmartCase = 1
+nnoremap ctrl-j i<C-j><ESC>
 nnoremap <leader>ff  :FufFile<CR>
 nnoremap <leader>fb  :FufBuffer<CR>
 nmap <leader>e  :NERDTreeToggle<CR>
